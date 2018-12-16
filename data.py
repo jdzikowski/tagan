@@ -37,7 +37,7 @@ class ReedICML2016(data.Dataset):
         for i in range(desc.shape[1]):
             words = self._nums2chars(desc[:, i])
             words = split_sentence_into_words(words)
-            word_vecs = torch.Tensor([word_embedding[w] for w in words])
+            word_vecs = torch.Tensor([word_embedding.get_word_vector(w) for w in words])
             # zero padding
             if len(words) < max_word_length:
                 word_vecs = torch.cat((

@@ -7,7 +7,7 @@ A PyTorch implementation of the paper ["Text-Adaptive Generative Adversarial Net
 - [PyTorch](https://github.com/pytorch/pytorch) 0.4
 - [Visdom](https://github.com/facebookresearch/visdom)
 - [Pillow](https://pillow.readthedocs.io/en/4.2.x/)
-- [fastText.py](https://github.com/salestock/fastText.py) (Note: if you have a problem when loading a pretrained model, try [my fixed code](https://github.com/woozzu/fastText.py/tree/feature/udpate-fasttext-to-f24a781-fix))
+- [fastText](https://github.com/facebookresearch/fastText) (Install by running `pip install git+https://github.com/facebookresearch/fastText.git`)
 - [NLTK](http://www.nltk.org)
 
 ## Pretrained word vectors for fastText
